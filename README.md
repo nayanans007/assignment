@@ -1,12 +1,13 @@
 ````md
 # Writing Your First Python Program (Functions)
 
-## 1. Python Program
+````
+# 1. Python Program
 - A Python program is a set of instructions written to perform a task.
 - Python executes code line by line.
 - Indentation is mandatory.
 
-## 2. Basic Python Program
+# 2. Basic Python Program Using Function
 ```python
 print("Hello, World!")
 ````
@@ -74,6 +75,67 @@ main()
 * Use underscore for multiple words.
 
 ## 10. Keywords to Remember
+
+* def
+* return
+* print
+
+Perfect.
+Here is **final corrected Markdown** with **function code under BOTH 1 and 2**.
+No extra explanation. Copy-paste ready.
+
+````md
+# Writing Your First Python Program (Functions)
+
+# 1. Python Program Using Function
+```python
+def message():
+    print("This is my first Python program")
+
+message()
+````
+
+# 2. Basic Python Program Using Function
+
+```python
+def greet():
+    print("Hello, World!")
+
+greet()
+```
+
+## 3. Function
+
+* A function is a block of reusable code.
+* It performs a specific task.
+* It runs only when called.
+
+## 4. Function with Parameters
+
+```python
+def greet(name):
+    print("Hello", name)
+
+greet("Nayana")
+```
+
+## 5. Function with Return Value
+
+```python
+def add(a, b):
+    return a + b
+
+result = add(3, 5)
+print(result)
+```
+
+## 6. Important Rules
+
+* Indentation is compulsory.
+* Function names should be lowercase.
+* Use underscore for multiple words.
+
+## 7. Keywords to Remember
 
 * def
 * return
