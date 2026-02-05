@@ -79,5 +79,3 @@ main()
 * def
 * return
 * print
-* return
-* print
